@@ -119,7 +119,7 @@ def main_apv():
         time.sleep(3.5)
         os.system('xdg-open https://www.facebook.com/AHSAM.JOIYA')
 
-    r1 = requests.get(').text
+    r1 = requests.get('').text
     if key1 in r1:
         main()
     else:
